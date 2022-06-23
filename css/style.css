@@ -1,0 +1,65 @@
+/* header styles */
+
+.header-wraper {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 20px ;
+}
+
+.nav-class {
+    display: flex;
+}
+.burger-bar{
+    font-size: 30px;
+    color: #fff;
+    display: none;
+
+}
+
+/* icons */
+
+.fa-facebook-messenger{
+    font-size: 30px;
+    color: blue;
+    transition: all 1s;
+}
+.youtube{
+    font-size: 30px;
+    color: red;
+}
+
+.fa-facebook-messenger:hover {
+color: yellow;
+
+}
+
+/* psevdo elements */
+
+/* .hello::before{
+ 
+    content: 'academy';
+    font-size: 25px;
+    color: red; 
+} */
+
+
+.hello::before{
+    content: url(../images/smiley.gif);
+}
+/* .hello::after{
+    content: '\0040';
+    font-size: 25px;
+    color: blue;
+    background: cadetblue;
+    margin-left: 15px;
+} */
+
+.hello::after{
+    content: '';
+    width: 2px;
+    height: 25px;
+    background-color: blue;
+    display: inline-block;
+    margin-left: 15px;
+}
